@@ -18,8 +18,11 @@
     to {transform:rotate(360deg);}
         }
         .chingchong {
-            color: white;
-            font-family: "Arial Black", "Gadget", sans-serif;
+            position: fixed;
+            top: calc(50% - 100px);
+            width: 100%;
+            animation: rainbow 5s linear infinite;
+            font-size: 400%;
         }
             .sungod {
             color: white;
@@ -29,6 +32,38 @@
     </style>
 </head>
 
+    
+        @keyframes chingchong {
+            0% {
+                color: #FF0000;
+            }
+            8.3% {
+                color: #FF7F00;
+            }
+            16.7% {
+                color: #FFFF00;
+            }
+            24.9% {
+                color: #7FFF00;
+            }
+            33.2% {
+                color: #00FF00;
+            }
+            41.5% {
+                color: #00FFF7;
+            }
+            49.8% {
+                color: #00FFFF;
+            }
+            58.1% {
+                color: #00F7FF;
+            }
+            66.4% {
+                color: #0000FF;
+            }
+            74.7% {
+                color: #F700FF;
+            }
 <body>
     <h1 class="chingchong" id="chingchong">什么？你从没玩过飞龙游戏吗？你知道它很好吗？我不应该给出我的意见，而是尝试一下，您可以告诉我它是否好。还没有定罪吗？我们免费提供它，这是一个很好的价格</h1>。
     <h2 class="sungod" id="sungod">Да здравствует PIROOGLE</h2>
